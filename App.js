@@ -7,6 +7,7 @@ import Travel from './screens/week3/Travel';
 export default function App() {
   return (
     <Travel/>
+
   );
 }
 
