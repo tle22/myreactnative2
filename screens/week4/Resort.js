@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Button, ScrollView, StyleSheet, Text, TextInput, View, Image } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
-
 export default function Resort() {
     return (
         <ScrollView>
@@ -12,7 +11,6 @@ export default function Resort() {
                         source={require("../../assets/week3/room-6.jpg")} />
                 </View>
                 <View style={{ flexDirection: "column", alignItems: "center", backgroundColor: "snow", padding: 20, marginTop: -20, margin: 10, borderRadius: 10 }}>
-
                     <Text style={{ fontSize: 20 }}>Hilton San Fransico</Text>
                     <View style={{ flexDirection: "row" }} >
                         <FontAwesome name="star" size={20} color="yellow" />
@@ -60,7 +58,6 @@ export default function Resort() {
                     <View style={{ flexDirection: "column" }}>
                         <FontAwesome name='paw' size={20} color="teal" />
                         <Text>paw</Text></View>
-
                 </View>
                 <View style={{ margin: 10 }}>
                     <Text>
@@ -102,11 +99,7 @@ export default function Resort() {
                         <Button title='Book Now' />
                     </View>
                 </View>
-
-
             </View>
-
         </ScrollView>
-
     );
 }
