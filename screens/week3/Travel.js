@@ -11,14 +11,25 @@ import Section4 from '../week4/Section4';
 import Section5 from '../week4/Section5';
 import Section6 from '../week4/Section6';
 import Section8 from '../week4/Section8';
+import Card from '../../components/week3/Card';
+import Hotel from '../../components/week3/Hotel';
 
 export default function Travel() {
-    return (        
-        <View style={{ flex: 1, flexDirection: 'column'}}>
-          
-            <Resort/>
-          {/* <Section8/> */}
-          
-        </View>
+    return (
+        <ScrollView>
+            <View style={{ flex: 1, flexDirection: 'column' }}>
+          {/* <Card/> */}
+          <Section1/>
+          <Section2/>
+          <Section3/>
+          <Section4/>
+          <Section5/>
+          <Section6/>
+          <Section7/>
+          <Section8/>
+          {/* <Travel/> */}
+          {/* <Hotel/> */}
+            </View>
+        </ScrollView>
     );
 }
