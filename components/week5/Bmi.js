@@ -68,7 +68,7 @@ export default function Bmi() {
                 />
             </View>
             {/* view ก้อนที่ 3 */}
-            {/* marginVertical คือ margin ตามเเนวเเกน บนล่าง ซ้ายขวา ไม่สนใจ*/}
+           
             <View style={{ flexDirection: "row", marginVertical: 20 }}>
                 <View
                     style={{

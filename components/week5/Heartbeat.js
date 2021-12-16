@@ -15,7 +15,6 @@ export default function Heartbeat() {
             <View style={{ flexDirection: 'row', padding: 30, alignContent: "space-around", justifyContent: "center" }}>
                 <TouchableOpacity onPress={onPressButton1}>
                     <FontAwesome name="heart" size={100} color='yellow' />
-
                 </TouchableOpacity>
                 <Text style={{ marginLeft: 15, fontSize: 70 }}>{put}</Text>
             </View>
