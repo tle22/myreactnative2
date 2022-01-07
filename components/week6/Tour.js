@@ -6,8 +6,8 @@ import TourItem from "./TourItem";
 export default function Tour(props) {
     return (
         <View style={props.style}>
-            <Text style={{ fontSize: 20 }}>Tour</Text>
-            <Text style={{ color: "#778899", marginVertical: 10 }}>
+            <Text style={{ fontSize: 25 }}>Tour</Text>
+            <Text style={{ color: "gray", marginVertical: 10 }}>
                 Let find out what most interesting things
             </Text>
             <ScrollView horizontal={true}>
