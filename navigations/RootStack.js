@@ -6,7 +6,6 @@ import Travel from "../screens/week3/Travel";
 import Resort from "../screens/week4/Resort";
 import Health from "../screens/week5/Health";
 const Stack = createStackNavigator();
-
 export default function RootStack() {
     return (
         <Stack.Navigator initialRouteName="BottomTab">
