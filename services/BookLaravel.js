@@ -1,5 +1,5 @@
 // const url_endpoint = "http://localhost/mylaravel8/public/api/book";
-const url_endpoint = "http://192.168.1.133/mylaravel8/public/api/book";
+const url_endpoint = "http:/192.168.1.133/mylaravel8/public/api/book";
 
 const getItems = async () => {
   try {
